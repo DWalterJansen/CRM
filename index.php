@@ -127,8 +127,8 @@
 			listar();
 			salvar();
 			excluir();
-			blockButton();
 			unBlockButton();
+			blockButton();
 		} );
 
 		$("btn_listar").on("Click", function(){
