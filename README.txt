@@ -2,7 +2,7 @@
 #   PHP: Version 7.3.0
 #   PostgreSQL: pdo_pgsql 	9.6.9
 # Informações:
-#   execute o arquivo "info.php"
+#   execute o arquivo "help/info.php"
 
 # Versão 2.0
 # Alterado em 15/11/2019
