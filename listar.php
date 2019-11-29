@@ -8,9 +8,10 @@ if (!$resultado_usuarios){
 } else {
 	$dados = [];
 	while( $data = pg_fetch_assoc($resultado_usuarios) ) {
-		$dados["data"][] = array_map("utf8_encode", $data);
+		//$dados["data"][] = array_map("utf8_encode", $data);
+		$dados["data"][] = $data;
 	}
-	echo json_encode($dados); 
+	echo json_encode($dados);
 }
 
 pg_free_result($resultado_usuarios);
